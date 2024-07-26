@@ -24,7 +24,11 @@ public class Main {
     System.out.println(counter2.value());
     counter2.increase(3);
     System.out.println(counter2.value());
+    counter2.increase(-3);
+    System.out.println(counter2.value());
     counter2.decrease(2);
+    System.out.println(counter2.value());
+    counter2.decrease(-2);
     System.out.println(counter2.value());
     }
 }
